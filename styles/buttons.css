@@ -5,7 +5,7 @@ border-radius: 32px;
 padding: 0px 22px;
 background-color: var(--color-brand-100);
 color: var(--color-grey-700);
-margin-right: 16px;
+margin-right: 20px;
 border: solid 1px var(--color-brand-100);
 margin-left: 10px;
 }
@@ -17,7 +17,7 @@ padding: 0px 22px;
 background-color: var(--color-grey-700);
 border: solid 1px var(--color-grey-700);
 color: var(--color-grey-200);
-margin-right: 16px;
+margin-right: 20px;
 }
 
 .btnVoltarTopo{
