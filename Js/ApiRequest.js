@@ -3,7 +3,7 @@ const Header = "application/json"
 
 export async function BuscarNoticia(){
 
-    const request = await fetch(`${urlBase}?page=1`,{
+     const request = await fetch(`${urlBase}?page=1`,{
         method: "GET",
         headers:{
         "Content-Type": `${Header}`
