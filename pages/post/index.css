@@ -1,1 +1,46 @@
-/* Desenvolva seu estilo aqui */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 0;
+}
+
+main{
+    display: flex;
+    padding: 0 181px;
+    flex-direction: column;
+}
+
+.divNoticia{
+padding: 80px 0;
+flex-direction: column;
+margin-bottom: 50px;
+
+}
+
+h1{
+font-family: var(--Inter);
+font-size: 40px;
+font-weight: 600;
+line-height: 60px;
+color: var(--color-grey-100);
+margin-bottom: 32px;
+}
+
+.texto{
+font-family: var(--Inter);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: var(--color-grey-200);
+}
+
+.bottom{
+margin-bottom: 70px;
+}
+
+.imgpost{
+    height: 402px;
+    margin-bottom: 50px;
+}

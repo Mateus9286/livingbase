@@ -1,1 +1,115 @@
-/* Desenvolva seu estilo aqui */
+main {
+  padding: 75px 176px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.alinhaItens {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+header {
+  height: 440px;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.imgNoticias{
+  max-width: 100%;
+  width: 578px;
+  height: 172px;
+}
+
+.divTextLogo {
+  height: 570px;
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 130px;
+}
+
+.margin {
+  margin-bottom: 69px;
+}
+
+.marginText {
+  margin-bottom: 24px;
+}
+
+.tituloHeader {
+  font-family: var(--Inter);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-bottom: 24px;
+}
+
+span {
+  color: var(--color-brand-100);
+}
+
+.textoHeader {
+  color: var(--color-grey-100);
+  font-family: var(--Inter);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.textConsumir {
+  color: var(--color-grey-100);
+  font-family: var(--Inter);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+picture {
+  height: 172px;
+  width: 548px;
+  align-items: center;
+}
+
+.tituloLi {
+  font-family: var(--Inter);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: var(--color-grey-100);
+  margin-bottom: 16px;
+}
+
+.textLi {
+  font-family: var(--Inter);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color-grey-200);
+  margin-bottom: 16px;
+}
+
+.spamLi {
+  font-family: var(--Inter);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+li {
+  width: 548px;
+  margin-bottom: 90px;
+  margin-left: 10px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: space-between;
+}
